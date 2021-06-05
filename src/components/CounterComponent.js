@@ -7,7 +7,7 @@ const CounterComponent = () => {
    const [startCountDown, setStartCountDown] = useState(false)
    const [startMoment, setStartMoment] = useState()
     return (
-        <div className="w-2/3 h-2/3 bg-black rounded-lg py-8">
+        <div className="w-1/3 bg-black rounded-lg py-8">
             <div className="flex flex-col gap-8">
                <CountDownComponent start={startCountDown} setStart={setStartCountDown}/>
                <CountUpComponent start={startCountUp} setStart={setStartCountUp} moment={startMoment}/>
